@@ -48,6 +48,15 @@ h2 {
   }
 }
 
+.image-wrapper {
+  float: left; /* or right */
+  margin: 0 20px 20px 0; /* adjust margins as needed */
+}
+
+.image-wrapper img {
+  display: block;
+}
+
 details summary {
   cursor: pointer;
 }
